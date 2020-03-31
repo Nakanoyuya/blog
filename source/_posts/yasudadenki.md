@@ -1,6 +1,7 @@
 ---
 title: 安田電機
 categories:
+- [全て]
 - [鹿児島]
 tags:
 - [電機]
