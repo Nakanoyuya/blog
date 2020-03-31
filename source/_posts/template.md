@@ -1,16 +1,17 @@
 ---
-title: テンプレート（タイトル）
+title: 新創ハウス
 categories:
+- [全て]
 - [鹿児島]
 tags:
-- [電機]
+- [リフォーム]
 - [工事]
 date: 2020-3-31
 comments: true
 ---
 
-## 安田電機株式会社
-[安田電機株式会社](https://yasuda-d.jp/)は主に<br>○○をしています。
+## 新創ハウス
+[新創ハウス](https://shinsou-kagoshima.com/)は主に<br>○○をしています。
 
 
 
