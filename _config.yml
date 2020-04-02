@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: みんなの鹿児島
-subtitle: 'かごしまのいろいろを紹介します'
+title: みんなのブログ
+subtitle: 'おすすめの会社を紹介'
 description: ''
 keywords:
 author: John Doe
-language: ja
+language: en
 timezone: ''
 
 # URL
