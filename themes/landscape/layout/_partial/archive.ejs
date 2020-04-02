@@ -14,7 +14,7 @@
       <section class="archives-wrap">
         <div class="archive-year-wrap">
           <a href="<%- url_for(config.archive_dir + '/' + year) %>" class="archive-year"><%= year %></a>
-          <img width="200" alt="img" src="/img/sakura.jpg"> 
+           
         </div>
         <div class="archives">
     <% } %>
@@ -30,6 +30,7 @@
     <%- paginator({
       prev_text: prev_text,
       next_text: next_text
+      <img width="200" alt="img" src="/img/sakura.jpg">
     }) %>
   </nav>
 <% } %>
