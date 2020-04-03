@@ -12,7 +12,19 @@
     <% } %>
     <div class="article-entry" itemprop="articleBody">
 
-     <img width="300" src= >
+
+     
+      
+      <% if (post.excerpt && index){ %>
+        <%- post.excerpt %>
+        <% if (theme.excerpt_link){ %>  
+          <p class="article-more-link">
+            <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
+          </p>
+        <% } %>
+      <% } else { %>
+        <%- post.content %>
+      <% } %>
 
     </div>
     <footer class="article-footer">
@@ -20,6 +32,7 @@
       <% if (post.comments && config.disqus_shortname){ %>
         <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link"><%= __('comment') %></a>
       <% } %>
+      afsdfdsaf
       <%- partial('post/tag') %>
     </footer>
   </div>
