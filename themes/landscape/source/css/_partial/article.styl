@@ -12,13 +12,18 @@
 .article-date
   @extend $block-caption
   float: left
+  margin-left:2rem
+  
 
 .article-category
-  float: left
+  clear:both
   line-height: 1em
   color: #ccc
   text-shadow: 0 1px #fff
   margin-left: 8px
+  margin-bottom:2rem
+  vertical-align: 5rem
+  
   &:before
     content: "\2022"
 
@@ -38,6 +43,7 @@
   transition: color 0.2s
   margin-top: 1.5rem
   margin-left: 1rem
+  margin-right 1rem
   a&:hover
     color: color-link
 
@@ -68,6 +74,7 @@
     height: auto
     display: block
     margin: auto
+    margin-bottom:2rem
   iframe
     border: none
   table
