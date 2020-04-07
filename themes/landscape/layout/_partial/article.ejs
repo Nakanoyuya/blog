@@ -1,6 +1,10 @@
 <article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost">
   
-  <img class="img_thumbnail" width="400" height="300" src= "<%= post.thumbnail %>">
+  <%- partial('post/title', {class_name: 'article-title'}) %>
+  <a class="img_link" href="<%- url_for(post.path) %>"  itemprop="url">
+  <img class="img_thumbnail" width="400" height="300" src= "<%= post.thumbnail %>" >
+  </a>
+  
   <div class="article-inner">
     <%- partial('post/gallery') %>
     <% if (post.link || post.title){ %>
